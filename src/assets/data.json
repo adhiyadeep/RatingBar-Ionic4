@@ -1,0 +1,44 @@
+{
+  "music": [
+    {
+      "id": "1",
+      "data": "The Chainsmokers",
+      "rating": ""
+    },
+    {
+      "id": "2",
+      "data": "The Weeknd",
+      "rating": ""
+    },
+    {
+      "id": "3",
+      "data": "Drake",
+      "rating": ""
+    },
+    {
+      "id": "4",
+      "data": "Migos",
+      "rating": ""
+    },
+    {
+      "id": "5",
+      "data": "Bruno Mars",
+      "rating": ""
+    },
+    {
+      "id": "6",
+      "data": "Shawn Mendes",
+      "rating": ""
+    },
+    {
+      "id": "7",
+      "data": "Ed Sheeran",
+      "rating": ""
+    },
+    {
+      "id": "8",
+      "data": "Rae Sremmurd",
+      "rating": ""
+    }
+  ]
+}

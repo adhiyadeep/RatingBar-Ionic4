@@ -5,19 +5,22 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import {IonicRatingModule, RatingComponent} from 'ionic4-rating/dist';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    RouterModule.forChild([
-      {
-        path: '',
-        component: HomePage
-      }
-    ])
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        IonicRatingModule,
+        RouterModule.forChild([
+            {
+                path: '',
+                component: HomePage
+            }
+        ]),
+        IonicRatingModule
+    ],
   declarations: [HomePage]
 })
 export class HomePageModule {}
